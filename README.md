@@ -6,20 +6,20 @@ Conversion from yolo format (from CVAT) to the format required by the yolo pipel
 
 Yolo format: data
 data
-	obj_train_data {label .txt files}
-    obj.data
-    obj.names
-    train.txt
+	* obj_train_data {label .txt files}
+    * obj.data
+    * obj.names
+    * train.txt
 
 Required format: Images {page images .jpg files}
 Image
-    train
-    test
-    val 
+    * train
+    * test
+    * val 
 Labels {label .txt files}
-    train
-    test
-    val
+    * train
+    * test
+    * val
 
 The annotations obtained in yolo format from CVAT only contain labels for files as listed in train.txt. The required format needs the images as well. So the conversion pipeline requires 3 arguments- the path to the pdf(s), the path to the corresponding annotation file from CVAT and the train, test, val split ratio percentage.
 
