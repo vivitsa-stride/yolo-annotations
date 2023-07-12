@@ -5,17 +5,18 @@
 Conversion from yolo format (from CVAT) to the format required by the yolo pipeline
 
 Yolo format: data
-
+data
     obj_train_data {label .txt files}
     obj.data
     obj.names
     train.txt
 
 Required format: Images {page images .jpg files}
-
+Image
     train
     test
-    val Labels {label .txt files}
+    val 
+Labels {label .txt files}
     train
     test
     val
