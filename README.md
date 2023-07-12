@@ -6,7 +6,7 @@ Conversion from yolo format (from CVAT) to the format required by the yolo pipel
 
 Yolo format: data
 data
-    obj_train_data {label .txt files}
+	obj_train_data {label .txt files}
     obj.data
     obj.names
     train.txt
